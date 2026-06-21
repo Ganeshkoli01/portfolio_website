@@ -1,17 +1,56 @@
 # portfolio_website
 
-## Main process (push to GitHub)
+## Full project push process (Windows / Git CLI)
 
-1. Initialized git in the project folder.
-2. Added GitHub remote:
-   - `https://github.com/Ganeshkoli01/portfolio_website.git`
-3. Created/checked out branch `main`.
-4. Staged all project files: `git add -A`
-5. Committed: `git commit -m "Initial portfolio commit"`
-6. Pulled/rebased remote changes (if remote already had commits): `git pull --rebase origin main`
-7. Pushed to GitHub: `git push -u origin main`
+### 1) Go to project folder
+```sh
+cd "d:/portfolio gk"
+```
 
-## Status
+### 2) Initialize git (if not already a git repo)
+```sh
+git init
+```
 
-- Local `main` is up to date with `origin/main`.
+### 3) Add GitHub remote
+```sh
+git remote add origin https://github.com/Ganeshkoli01/portfolio_website.git
+```
+
+### 4) Use `main` as default branch
+```sh
+git branch -M main
+```
+
+### 5) Stage ALL files
+```sh
+git add -A
+```
+
+### 6) Commit
+```sh
+git commit -m "Initial portfolio commit"
+```
+
+### 7) If push is rejected (remote already has commits), pull first
+```sh
+git pull --rebase origin main
+```
+
+### 8) Push
+```sh
+git push -u origin main
+```
+
+### 9) Verify
+```sh
+git status
+```
+
+---
+
+## Current state (from last push)
+- Repository pushed to: `https://github.com/Ganeshkoli01/portfolio_website.git`
+- Branch: `main`
+- Working tree: clean (nothing pending)
 
