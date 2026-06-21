@@ -49,8 +49,21 @@ git status
 
 ---
 
-## Current state (from last push)
-- Repository pushed to: `https://github.com/Ganeshkoli01/portfolio_website.git`
-- Branch: `main`
-- Working tree: clean (nothing pending)
+## Project info (GK Prime Walk)
+
+I built **GK Prime Walk**, a mini e-commerce shoe website designed for an easy shopping experience.
+
+✅ Category pages: **Men / Women / Kids / Sport**
+
+✅ Product listing with **Add to Cart**
+
+✅ Cart page with dynamic rendering + remove items
+
+✅ Subtotal, Shipping, and Total calculation
+
+✅ Cart data stored using **localStorage** (no backend required)
+
+✅ Modern UI with gradient background, product cards, and smooth interactions
+
+This project helped strengthen my frontend skills in **DOM manipulation**, **event handling**, and **state management** using **JavaScript**. 👟
 
